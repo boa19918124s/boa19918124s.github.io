@@ -1,7 +1,7 @@
 <?php include 'db_connect.php'?>
 <?php
 if (isset($_GET['id'])) {
-    $type_arr = array('', "Admin", "Subscriber");
+    $type_arr = array('', "管理者", "一般使用者");
     $qry = $conn->query("SELECT *,concat(firstname,' ',lastname) as name FROM users where id = " . $_GET['id'])->fetch_array();
     foreach ($qry as $k => $v) {
         $$k = $v;
@@ -41,7 +41,7 @@ if (isset($_GET['id'])) {
                     <dd><?php echo $contact ?></dd>
                 </dl>
                 <dl>
-                    <dt>地址</dt>
+                    <dt>居住地址</dt>
                     <dd><?php echo $address ?></dd>
                 </dl>
                 <dl>
