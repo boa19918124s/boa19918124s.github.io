@@ -23,6 +23,6 @@ email: admin@admin.com
 password: admin123
 ----------------------------------------------------
 使用者帳戶
-email: jsmith@sample.com
-password: jsmith123
+email: test@sample.com
+password: test123
 ----------------------------------------------------
