@@ -8,7 +8,7 @@
               <span class="brand-text font-weight-light  text-gradient-primary"><i>Music</i></span>
 
           </a>
-          <div class="dropdown-menu" style="">
+          <div class="dropdown-menu">
               <a class="dropdown-item manage_account" href="javascript:void(0)"
                   data-id="<?php echo $_SESSION['login_id'] ?>">Manage Account</a>
               <div class="dropdown-divider"></div>
