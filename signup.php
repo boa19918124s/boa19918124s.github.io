@@ -7,20 +7,20 @@
                     <div id="msg"></div>
                     <div class="row">
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="輸入姓氏" name='firstname'>
+                            <input type="text" class="form-control" placeholder="輸入姓氏" name='firstname' required="">
                         </div>
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="輸入姓名" name='lastname'>
+                            <input type="text" class="form-control" placeholder="輸入姓名" name='lastname' required="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-md-12">
-                            <input type="Email"" class=" form-control" placeholder="輸入電子信箱" name='email'>
+                            <input type="Email"" class=" form-control" placeholder="輸入電子信箱" name='email' required="">
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-md-12">
-                            <input type="password" class="form-control" placeholder="輸入密碼" name='password'>
+                            <input type="password" class="form-control" placeholder="輸入密碼" name='password' required="">
                         </div>
                     </div>
                     <b><small class="text-muted"><b>性別：</b></small></b>
